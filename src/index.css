@@ -1,13 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Barriecito|Indie+Flower|Lato|Montserrat|Oswald|Poppins|Source+Sans+Pro&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background: url(img/fog-foggy-forest-4827.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    padding: 20px;
+    margin: 0; 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+h1,
+p,
+ul,
+li {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+h1, h3 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;  
+}
+
+#signature{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    display: inline;
+}
+
+hr{
+    margin: 0;
+    padding: 0;
+}
+
+ul.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+ul.header li {
+    list-style-type: none;
+    margin: 0;
+}
+
+ul.header li a {
+    color: #07020D;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    transition: 7ms;
+    min-width: 6rem;;
+    margin: 0 1rem 0 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.767);
+    color: rgb(87, 82, 72);
+    width: 70vw;
+    margin: auto;
+    border-radius: 10px; 
+    text-align: center;
+    line-height: 30px;
+    min-height: 20vh;
+}
+
+.content h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.content li {
+    margin-bottom: 10px;  
+}
+
+.active {  
+    /* background: rgba(95, 95, 95, 0.1); */
+    background: transparent; 
+    border: solid 1px rgb(168, 166, 166);
+}
+
+a:hover {
+    animation-name: backgroundcolor;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    border: solid 1px #fff; 
+    text-shadow: none;
+}
+
+@keyframes backgroundcolor {
+    100% {
+        background: rgba(95, 95, 95, 0.1)
+    }
+}
+
+a:active {
+    position: relative;
+    top: 1px;
+    border: solid 1px #000;
+    
+}
+
+.portfolio-image{
+    width: 90%;
+    height: 90%;
+    border: solid 1px rgb(145, 145, 145);
+    margin: 15px;
+}
+
+.button-link{
+    background: #fff;
+    border: solid rgb(173, 172, 172) 1px;
+    border-radius: 10px;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1vh;
+    font-weight: 600;
+    font-size: 1rem;
+    outline: none;
+}
+
+.button-link:hover{
+    background: rgb(32, 13, 139);
+    color: #fff;
+}
+
+.button-link:active{
+    position: relative;
+    top: 5px;
+    background: rgb(31, 128, 31);
+}
+
+
+#quote-section{
+ 
+    text-align: center;
+    height:70px; 
+    width: 100%;
+    padding:5px; 
+    bottom: 35%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#quote{
+    
+    color: #fff;
+   
+    
+    
+    
+}
+cite{
+    color: #fff;
+    
+}
+
+strong{
+    color: #065143;
+    font-weight: 600; 
+}
+
+@media only screen and (max-width: 1100px){
+    body, html{  
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0;
+        margin: 0;
+        max-height: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    #signature{
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.8rem;
+        text-align: center;
+        padding: 0;
+        display: block;
+        margin-top: 5px;
+    }
+    
+    ul.header li a {
+        padding: 10px;
+        font-size: 0.75rem;
+        display: inline-block;
+        transition: 7ms;
+        min-width: 2rem;;
+        margin: 0 1rem 0 1rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .content {
+        margin: auto;
+        width: 75vw;
+        border-radius: 25px;
+        background: rgba(255, 255, 255, 0.925);
+        min-height: 25vh;
+    }
+
+    .content h3 {
+        font-size: .85rem;
+        line-height: 30px;    
+    }
+
+    .content p, li{
+        font-size: .75rem;
+    }
+
+    .button-link{
+        outline: none;
+        font-size: .7rem;
+    }
+
+    #quote-section{
+        margin: 0;
+        font-size: 0.7rem;
+        margin-top: 10%;
+        bottom: 35%;
+    }
+
+  
+}
+
+@media only screen and (max-width: 800px){
+    #signature{
+        text-align: center; 
+    }
+
+    .content{
+        min-height: 40vh;
+    }
+   
+   
 }
