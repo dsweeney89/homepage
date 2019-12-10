@@ -74,6 +74,7 @@ class Projects extends Component {
           <p>Check out the Repo and give it a go!</p>
           <ImageGallery items={MovieSearchImages} />
         </div>
+         <hr className="ruler" />
       </FadeIn>
     );
   }

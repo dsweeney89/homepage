@@ -4,13 +4,13 @@
   "private": true,
   "homepage": "http://dsweeney89.github.io/homepage",
   "dependencies": {
-    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-fade-in": "^0.1.6",
     "react-image-gallery": "^0.8.18",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "serialize-javascript": ">=2.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
   }
 }

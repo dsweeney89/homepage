@@ -73,6 +73,7 @@ ul.header li a {
     text-align: center;
     line-height: 30px;
     min-height: 20vh;
+    border: solid 1px rgb(224, 224, 224);
 }
 
 .content h2 {
