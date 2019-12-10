@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/homepage/static/css/main.e5fd79ac.chunk.css",
+    "main.js": "/homepage/static/js/main.bac9e9b6.chunk.js",
+    "main.js.map": "/homepage/static/js/main.bac9e9b6.chunk.js.map",
+    "runtime~main.js": "/homepage/static/js/runtime~main.336ecad5.js",
+    "runtime~main.js.map": "/homepage/static/js/runtime~main.336ecad5.js.map",
+    "static/css/2.f74a8007.chunk.css": "/homepage/static/css/2.f74a8007.chunk.css",
+    "static/js/2.14506abe.chunk.js": "/homepage/static/js/2.14506abe.chunk.js",
+    "static/js/2.14506abe.chunk.js.map": "/homepage/static/js/2.14506abe.chunk.js.map",
+    "index.html": "/homepage/index.html",
+    "precache-manifest.fcd5107f351c280522eb00c2de8f646d.js": "/homepage/precache-manifest.fcd5107f351c280522eb00c2de8f646d.js",
+    "service-worker.js": "/homepage/service-worker.js",
+    "static/css/2.f74a8007.chunk.css.map": "/homepage/static/css/2.f74a8007.chunk.css.map",
+    "static/css/main.e5fd79ac.chunk.css.map": "/homepage/static/css/main.e5fd79ac.chunk.css.map",
+    "static/media/index.css": "/homepage/static/media/fog-foggy-forest-4827.6a4c4eef.jpg",
+    "static/media/movie-search1-thumb.jpg": "/homepage/static/media/movie-search1-thumb.7cbd7c07.jpg",
+    "static/media/movie-search1.JPG": "/homepage/static/media/movie-search1.c710a844.JPG",
+    "static/media/movie-search2-thumb.jpg": "/homepage/static/media/movie-search2-thumb.89a77178.jpg",
+    "static/media/movie-search2.JPG": "/homepage/static/media/movie-search2.4c427c57.JPG",
+    "static/media/movie-search3-thumb.jpg": "/homepage/static/media/movie-search3-thumb.d0330f3c.jpg",
+    "static/media/movie-search3.JPG": "/homepage/static/media/movie-search3.9e575d19.JPG",
+    "static/media/weatherapp-thumb.JPG": "/homepage/static/media/weatherapp-thumb.5c68f2c6.JPG",
+    "static/media/weatherapp.JPG": "/homepage/static/media/weatherapp.81fd4170.JPG",
+    "static/media/weatherapp_dublin-thumb.JPG": "/homepage/static/media/weatherapp_dublin-thumb.d95b2da7.JPG",
+    "static/media/weatherapp_dublin.JPG": "/homepage/static/media/weatherapp_dublin.d243a3d0.JPG",
+    "static/media/weatherapp_london-thumb.JPG": "/homepage/static/media/weatherapp_london-thumb.4f855ea1.JPG",
+    "static/media/weatherapp_london.JPG": "/homepage/static/media/weatherapp_london.4894aa24.JPG"
+  }
+}
