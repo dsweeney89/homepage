@@ -40,7 +40,8 @@ class Projects extends Component {
     ];
 
     return (
-      <FadeIn delay={100}>
+    
+      <FadeIn delay={500}>
         <div>
           <div class="project">
             <form
@@ -56,6 +57,8 @@ class Projects extends Component {
             <ImageGallery items={WeatherAppImages} />
           </div>
         </div>
+
+   
 
         <hr className="ruler" />
 
@@ -76,6 +79,7 @@ class Projects extends Component {
         </div>
          <hr className="ruler" />
       </FadeIn>
+    
     );
   }
 }
